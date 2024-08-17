@@ -558,6 +558,10 @@ video {
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
 .left-\[39px\] {
   left: 39px;
 }
@@ -566,8 +570,96 @@ video {
   top: 388px;
 }
 
+.top-5 {
+  top: 1.25rem;
+}
+
+.-top-10 {
+  top: -2.5rem;
+}
+
+.-top-\[200px\] {
+  top: -200px;
+}
+
+.-top-\[300px\] {
+  top: -300px;
+}
+
+.-top-\[400px\] {
+  top: -400px;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.-bottom-10 {
+  bottom: -2.5rem;
+}
+
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
+.left-\[50\%\] {
+  left: 50%;
+}
+
+.left-\[50\%-\] {
+  left: 50%-;
+}
+
+.left-\[50\%-132px\] {
+  left: 50%-132px;
+}
+
+.left-\[132px\] {
+  left: 132px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.-top-\[230px\] {
+  top: -230px;
+}
+
+.-top-\[210px\] {
+  top: -210px;
+}
+
+.-top-\[215px\] {
+  top: -215px;
+}
+
+.-top-\[212px\] {
+  top: -212px;
+}
+
+.-top-\[214px\] {
+  top: -214px;
+}
+
 .z-10 {
   z-index: 10;
+}
+
+.-z-10 {
+  z-index: -10;
 }
 
 .mx-auto {
@@ -597,6 +689,22 @@ video {
 
 .mt-\[155px\] {
   margin-top: 155px;
+}
+
+.mt-\[267px\] {
+  margin-top: 267px;
+}
+
+.mt-\[387px\] {
+  margin-top: 387px;
+}
+
+.mt-\[74px\] {
+  margin-top: 74px;
+}
+
+.mt-\[58px\] {
+  margin-top: 58px;
 }
 
 .flex {
@@ -631,6 +739,14 @@ video {
   height: 55px;
 }
 
+.h-\[267px\] {
+  height: 267px;
+}
+
+.h-\[25px\] {
+  height: 25px;
+}
+
 .w-12 {
   width: 3rem;
 }
@@ -645,6 +761,18 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[177px\] {
+  width: 177px;
+}
+
+.w-\[265px\] {
+  width: 265px;
+}
+
+.w-\[116px\] {
+  width: 116px;
 }
 
 .cursor-pointer {
@@ -673,6 +801,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.text-wrap {
+  text-wrap: wrap;
 }
 
 .rounded-full {
@@ -706,6 +838,10 @@ video {
   background-color: rgb(36 5 62 / var(--tw-bg-opacity));
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -713,6 +849,14 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pb-\[74px\] {
+  padding-bottom: 74px;
+}
+
+.pb-\[64px\] {
+  padding-bottom: 64px;
 }
 
 .text-center {
@@ -742,6 +886,10 @@ video {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-\[32px\] {
+  font-size: 32px;
 }
 
 .font-bold {
