@@ -20,17 +20,20 @@
             class="bg-darkPurple h-[482px] px-4 pt-8 flex flex-col content-center"
             style="clip-path: ellipse(150% 100% at 50% 0%)"
         >
-            <div role="banner" class="w-full h-[34px] flex justify-between">
+            <div
+                role="banner"
+                class="relative w-full h-[34px] flex justify-between"
+            >
                 <img src="./assets/images/logo-light.svg" alt="logo" />
                 <button
                     type="button"
-                    class="h-8 font-bold text-white border-b-[3px] border-eucaplyptus"
+                    class="h-8 font-bold text-white border-b-[3px] border-eucaplyptus hover:text-eucaplyptus"
                 >
                     Apply for access
                 </button>
             </div>
             <h1
-                class="h-[100px] text-white font-fraunces font-semibold text-[50px] text-center leading-[50px] mt-16"
+                class="h-[100px] md:h-[121px] md:w-[573px] md:mx-auto text-white font-fraunces font-semibold text-[50px] md:text-6xl text-center leading-[50px] mt-16"
             >
                 Data
                 <span class="underline decoration-eucaplyptus">tailored</span>
@@ -38,90 +41,129 @@
             </h1>
             <button
                 type="button"
-                class="h-[55px] w-[133px] border-2 border-eucaplyptus text-eucaplyptus text-[18px] leading-8 font-bold mx-auto mt-10 hover:bg-eucaplyptus hover:text-darkPurple cursor-pointer"
+                class="h-[55px] w-[133px] border-2 border-eucaplyptus hover:text-eucaplyptus hover:bg-transparent text-[18px] leading-8 font-bold mx-auto mt-10 bg-eucaplyptus text-darkPurple cursor-pointer"
             >
                 Learn more
             </button>
+            <img
+                src="/assets/images/bg-pattern-1.svg"
+                alt="spring-1"
+                class="hidden md:block md:absolute top-24 -left-[180px] w-[270px]"
+            />
+            <img
+                src="/assets/images/bg-pattern-2.svg"
+                alt="spring-2"
+                class="hidden md:block md:absolute top-[260px] -right-[80px] w-[142px]"
+            />
         </div>
         <img
             src="./assets/images/image-hero.webp"
             alt="hero"
             class="top-[388px] left-0 right-0 mx-auto z-10 absolute w-[293px]"
         />
-        <main class="mt-[155px] px-4 pb-[64px]">
-            <section class="mb-10">
-                <div
-                    class="border border-davysGrey rounded-full w-12 h-12 flex flex-row items-center justify-center font-fraunces font-semibold font-xl text-darkPurple leading-[48px] mx-auto"
-                >
-                    1
-                </div>
-                <h2
-                    class="text-center mt-6 font-semibold text-[28px] font-fraunces leading-9"
-                >
-                    Actionable insights
-                </h2>
-                <p
-                    class="mt-4 text-center font-normal text-base leading-7 text-davysGrey"
-                >
-                    Optimize your products, improve customer satisfaction and
-                    stay ahead of the competition with our product data
-                    analytics.
-                </p>
-            </section>
-            <section class="mb-10">
-                <div
-                    class="border border-davysGrey rounded-full w-12 h-12 flex flex-row items-center justify-center font-fraunces font-semibold font-xl text-darkPurple leading-[48px] mx-auto"
-                >
-                    2
-                </div>
-                <h2
-                    class="text-center mt-6 font-semibold text-[28px] font-fraunces leading-9"
-                >
-                    Data-driven decisions
-                </h2>
-                <p
-                    class="mt-4 text-center font-normal text-base leading-7 text-davysGrey"
-                >
-                    Make data-driven decisions with our product data analytics.
-                    Our AI-generated reports help you unlock insights hidden in
-                    your product data.
-                </p>
-            </section>
-            <section class="mb-10">
-                <div
-                    class="border border-davysGrey rounded-full w-12 h-12 flex flex-row items-center justify-center font-fraunces font-semibold font-xl text-darkPurple leading-[48px] mx-auto"
-                >
-                    3
-                </div>
-                <h2
-                    class="text-center mt-6 font-semibold text-[28px] font-fraunces leading-9"
-                >
-                    Always affordable
-                </h2>
-                <p
-                    class="mt-4 text-center font-normal text-base leading-7 text-davysGrey"
-                >
-                    Always affordable pricing that scales with your business.
-                    Get top-quality product data analytics services without
-                    hidden costs or unexpected fees.
-                </p>
-            </section>
 
-            <footer class="relative mt-[387px]">
+        <main class="mt-[155px] px-4 md:px-10">
+            <div
+                class="md:px-[88px] bg-ghostWhite"
+                style="clip-path: ellipse(150% 100% at 50% 0%)"
+            >
+                <section
+                    class="mb-10 md:flex md:flex-row md:justify-start md:gap-8 w-full"
+                >
+                    <div class="md:flex md:justify-center md:items-center">
+                        <div
+                            class="border border-davysGrey rounded-full w-12 h-12 flex flex-row items-center justify-center font-fraunces font-semibold font-xl text-darkPurple leading-[48px] mx-auto"
+                        >
+                            1
+                        </div>
+                    </div>
+
+                    <div>
+                        <h2
+                            class="text-center mt-6 md:mt-0 font-semibold text-[28px] font-fraunces leading-9 md:text-start"
+                        >
+                            Actionable insights
+                        </h2>
+                        <p
+                            class="mt-4 text-center font-normal text-base leading-7 text-davysGrey md:text-start"
+                        >
+                            Optimize your products, improve customer
+                            satisfaction and stay ahead of the competition with
+                            our product data analytics.
+                        </p>
+                    </div>
+                </section>
+                <section
+                    class="mb-10 md:flex md:flex-row md:justify-start md:gap-8 w-full"
+                >
+                    <div class="md:flex md:justify-center md:items-center">
+                        <div
+                            class="border border-davysGrey rounded-full w-12 h-12 flex flex-row items-center justify-center font-fraunces font-semibold font-xl text-darkPurple leading-[48px] mx-auto"
+                        >
+                            2
+                        </div>
+                    </div>
+
+                    <div>
+                        <h2
+                            class="text-center mt-6 md:mt-0 font-semibold text-[28px] font-fraunces leading-9 md:text-start"
+                        >
+                            Data-driven decisions
+                        </h2>
+                        <p
+                            class="mt-4 text-center font-normal text-base leading-7 text-davysGrey md:text-start"
+                        >
+                            Make data-driven decisions with our product data
+                            analytics. Our AI-generated reports help you unlock
+                            insights hidden in your product data.
+                        </p>
+                    </div>
+                </section>
+                <section
+                    class="mb-10 md:flex md:flex-row md:justify-start md:gap-8 w-full"
+                >
+                    <div class="md:flex md:justify-center md:items-center">
+                        <div
+                            class="border border-davysGrey rounded-full w-12 h-12 flex flex-row items-center justify-center font-fraunces font-semibold font-xl text-darkPurple leading-[48px] mx-auto"
+                        >
+                            3
+                        </div>
+                    </div>
+
+                    <div>
+                        <h2
+                            class="text-center mt-6 md:mt-0 font-semibold text-[28px] font-fraunces leading-9 md:text-start"
+                        >
+                            Always affordable
+                        </h2>
+                        <p
+                            class="mt-4 text-center font-normal text-base leading-7 text-davysGrey md:text-start"
+                        >
+                            Always affordable pricing that scales with your
+                            business. Get top-quality product data analytics
+                            services without hidden costs or unexpected fees.
+                        </p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="relative mt-[387px] md:h-[375px]">
                 <img
                     src="./assets/images/image-founder.webp"
                     alt="founder"
-                    class="absolute h-[267px] left-0 right-0 mx-auto -top-[215px] -z-10"
+                    class="absolute h-[267px] left-0 right-0 mx-auto md:mx-0 -top-[215px] md:-top-[146px] -z-10"
                 />
                 <div
-                    class="bg-darkPurple text-white p-8 flex flex-col items-center"
+                    class="bg-darkPurple text-white p-8 md:px-[56px] md:pb-[56px] md:pt-[48px] flex flex-col items-center md:items-start md:ml-40"
                 >
                     <h2
                         class="font-fraunces text-[32px] font-semibold leading-[48px] text-center"
                     >
                         Be the first to test
                     </h2>
-                    <p class="text-center mt-4 text-4 leading-7 font-normal">
+                    <p
+                        class="text-center mt-4 text-4 leading-7 font-normal md:text-start"
+                    >
                         Hi, I'm Louis Graham, the founder of the company. Book a
                         demo call with me to become a beta tester for our app
                         and kickstart your company. Apply for access below and
@@ -130,30 +172,31 @@
 
                     <button
                         type="button"
-                        class="h-[55px] w-[177px] border-2 border-eucaplyptus text-eucaplyptus text-[18px] leading-8 font-bold mx-auto mt-10 hover:bg-eucaplyptus hover:text-darkPurple cursor-pointer"
+                        class="h-[55px] w-[177px] border-2 border-eucaplyptus hover:text-eucaplyptus hover:bg-transparent text-[18px] leading-8 font-bold mx-auto mt-10 bg-eucaplyptus text-darkPurple cursor-pointer"
                     >
                         Apply for access
                     </button>
                 </div>
                 <img
-                    src="./assets/images/logo-dark.svg"
-                    alt="logo"
-                    class="h-[25px] mt-[74px] mx-auto"
+                    src="./assets/images/bg-pattern-3.svg"
+                    alt="spring"
+                    class="hidden md:absolute md:block md:right-2 md:-bottom-14 w-[173px]"
                 />
-                <div
-                    class="mt-[58px] mx-auto w-[116px] flex flex-row justify-between"
-                >
-                    <img
-                        src="./assets/images/icon-facebook.svg"
-                        alt="facebook"
-                    />
-                    <img src="./assets/images/icon-twitter.svg" alt="twitter" />
-                    <img
-                        src="./assets/images/icon-instagram.svg"
-                        alt="instagram"
-                    />
-                </div>
-            </footer>
+            </div>
         </main>
+        <footer class="mt-[74px] md:mt-20 mb-[122px]">
+            <img
+                src="./assets/images/logo-dark.svg"
+                alt="logo"
+                class="h-[25px] mx-auto"
+            />
+            <div
+                class="mt-[58px] mx-auto w-[116px] flex flex-row justify-between"
+            >
+                <img src="./assets/images/icon-facebook.svg" alt="facebook" />
+                <img src="./assets/images/icon-twitter.svg" alt="twitter" />
+                <img src="./assets/images/icon-instagram.svg" alt="instagram" />
+            </div>
+        </footer>
     </body>
 </html>
