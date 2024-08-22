@@ -14,10 +14,10 @@
 
         <title>Frontend Mentor | Workit landing page</title>
     </head>
-    <body class="font-manrope">
+    <body class="font-manrope overflow-x-hidden">
         <div
             role="banner"
-            class="bg-darkPurple h-[482px] px-4 pt-8 flex flex-col content-center"
+            class="bg-darkPurple h-[482px] lg:h-[730px] px-4 pt-8 flex flex-col content-center overflow-hidden"
             style="clip-path: ellipse(150% 100% at 50% 0%)"
         >
             <div
@@ -48,142 +48,142 @@
             <img
                 src="/assets/images/bg-pattern-1.svg"
                 alt="spring-1"
-                class="hidden md:block md:absolute top-24 -left-[180px] w-[270px]"
+                class="hidden md:block md:absolute top-24 lg:top-28 -left-[120px] w-[270px]"
             />
             <img
                 src="/assets/images/bg-pattern-2.svg"
                 alt="spring-2"
-                class="hidden md:block md:absolute top-[260px] -right-[80px] w-[142px]"
+                class="hidden md:block md:absolute top-[320px] -right-10 w-[142px]"
             />
         </div>
         <img
             src="./assets/images/image-hero.webp"
             alt="hero"
-            class="top-[388px] left-0 right-0 mx-auto z-10 absolute w-[293px]"
+            class="top-[388px] left-0 right-0 mx-auto z-10 absolute w-[293px] lg:w-[715px] lg:top-[454px]"
         />
 
-        <main class="mt-[155px] px-4 md:px-10">
-            <div
-                class="md:px-[88px] bg-ghostWhite"
-                style="clip-path: ellipse(150% 100% at 50% 0%)"
+        <main
+            class="relative -z-10 -top-14 pt-[210px] pb-4 px-4 md:px-[88px] lg:px-[165px] bg-ghostWhite lg:flex lg:flex-row lg:gap-10"
+            style="clip-path: ellipse(180% 100% at 50% 0%)"
+        >
+            <section
+                class="mb-10 md:flex md:flex-row lg:flex-col md:justify-start md:gap-8 w-full"
             >
-                <section
-                    class="mb-10 md:flex md:flex-row md:justify-start md:gap-8 w-full"
-                >
-                    <div class="md:flex md:justify-center md:items-center">
-                        <div
-                            class="border border-davysGrey rounded-full w-12 h-12 flex flex-row items-center justify-center font-fraunces font-semibold font-xl text-darkPurple leading-[48px] mx-auto"
-                        >
-                            1
-                        </div>
-                    </div>
-
-                    <div>
-                        <h2
-                            class="text-center mt-6 md:mt-0 font-semibold text-[28px] font-fraunces leading-9 md:text-start"
-                        >
-                            Actionable insights
-                        </h2>
-                        <p
-                            class="mt-4 text-center font-normal text-base leading-7 text-davysGrey md:text-start"
-                        >
-                            Optimize your products, improve customer
-                            satisfaction and stay ahead of the competition with
-                            our product data analytics.
-                        </p>
-                    </div>
-                </section>
-                <section
-                    class="mb-10 md:flex md:flex-row md:justify-start md:gap-8 w-full"
-                >
-                    <div class="md:flex md:justify-center md:items-center">
-                        <div
-                            class="border border-davysGrey rounded-full w-12 h-12 flex flex-row items-center justify-center font-fraunces font-semibold font-xl text-darkPurple leading-[48px] mx-auto"
-                        >
-                            2
-                        </div>
-                    </div>
-
-                    <div>
-                        <h2
-                            class="text-center mt-6 md:mt-0 font-semibold text-[28px] font-fraunces leading-9 md:text-start"
-                        >
-                            Data-driven decisions
-                        </h2>
-                        <p
-                            class="mt-4 text-center font-normal text-base leading-7 text-davysGrey md:text-start"
-                        >
-                            Make data-driven decisions with our product data
-                            analytics. Our AI-generated reports help you unlock
-                            insights hidden in your product data.
-                        </p>
-                    </div>
-                </section>
-                <section
-                    class="mb-10 md:flex md:flex-row md:justify-start md:gap-8 w-full"
-                >
-                    <div class="md:flex md:justify-center md:items-center">
-                        <div
-                            class="border border-davysGrey rounded-full w-12 h-12 flex flex-row items-center justify-center font-fraunces font-semibold font-xl text-darkPurple leading-[48px] mx-auto"
-                        >
-                            3
-                        </div>
-                    </div>
-
-                    <div>
-                        <h2
-                            class="text-center mt-6 md:mt-0 font-semibold text-[28px] font-fraunces leading-9 md:text-start"
-                        >
-                            Always affordable
-                        </h2>
-                        <p
-                            class="mt-4 text-center font-normal text-base leading-7 text-davysGrey md:text-start"
-                        >
-                            Always affordable pricing that scales with your
-                            business. Get top-quality product data analytics
-                            services without hidden costs or unexpected fees.
-                        </p>
-                    </div>
-                </section>
-            </div>
-
-            <div class="relative mt-[387px] md:h-[375px]">
-                <img
-                    src="./assets/images/image-founder.webp"
-                    alt="founder"
-                    class="absolute h-[267px] left-0 right-0 mx-auto md:mx-0 -top-[215px] md:-top-[146px] -z-10"
-                />
-                <div
-                    class="bg-darkPurple text-white p-8 md:px-[56px] md:pb-[56px] md:pt-[48px] flex flex-col items-center md:items-start md:ml-40"
-                >
-                    <h2
-                        class="font-fraunces text-[32px] font-semibold leading-[48px] text-center"
+                <div class="md:flex md:justify-center md:items-center">
+                    <div
+                        class="border border-davysGrey rounded-full w-12 h-12 flex flex-row items-center justify-center font-fraunces font-semibold font-xl text-darkPurple leading-[48px] mx-auto"
                     >
-                        Be the first to test
+                        1
+                    </div>
+                </div>
+
+                <div>
+                    <h2
+                        class="text-center mt-6 md:mt-0 font-semibold text-[28px] font-fraunces leading-9 md:text-start lg:text-center"
+                    >
+                        Actionable insights
                     </h2>
                     <p
-                        class="text-center mt-4 text-4 leading-7 font-normal md:text-start"
+                        class="mt-4 text-center font-normal text-base leading-7 text-davysGrey md:text-start lg:text-center"
                     >
-                        Hi, I'm Louis Graham, the founder of the company. Book a
-                        demo call with me to become a beta tester for our app
-                        and kickstart your company. Apply for access below and
-                        I’ll be in touch to schedule a call.
+                        Optimize your products, improve customer satisfaction
+                        and stay ahead of the competition with our product data
+                        analytics.
                     </p>
-
-                    <button
-                        type="button"
-                        class="h-[55px] w-[177px] border-2 border-eucaplyptus hover:text-eucaplyptus hover:bg-transparent text-[18px] leading-8 font-bold mx-auto mt-10 bg-eucaplyptus text-darkPurple cursor-pointer"
-                    >
-                        Apply for access
-                    </button>
                 </div>
-                <img
-                    src="./assets/images/bg-pattern-3.svg"
-                    alt="spring"
-                    class="hidden md:absolute md:block md:right-2 md:-bottom-14 w-[173px]"
-                />
-            </div>
+            </section>
+            <section
+                class="mb-10 md:flex md:flex-row lg:flex-col md:justify-start md:gap-8 w-full"
+            >
+                <div class="md:flex md:justify-center md:items-center">
+                    <div
+                        class="border border-davysGrey rounded-full w-12 h-12 flex flex-row items-center justify-center font-fraunces font-semibold font-xl text-darkPurple leading-[48px] mx-auto"
+                    >
+                        2
+                    </div>
+                </div>
+
+                <div>
+                    <h2
+                        class="text-center mt-6 md:mt-0 font-semibold text-[28px] font-fraunces leading-9 md:text-start lg:text-center"
+                    >
+                        Data-driven decisions
+                    </h2>
+                    <p
+                        class="mt-4 text-center font-normal text-base leading-7 text-davysGrey md:text-start lg:text-center"
+                    >
+                        Make data-driven decisions with our product data
+                        analytics. Our AI-generated reports help you unlock
+                        insights hidden in your product data.
+                    </p>
+                </div>
+            </section>
+            <section
+                class="mb-10 md:flex md:flex-row lg:flex-col md:justify-start md:gap-8 w-full"
+            >
+                <div class="md:flex md:justify-center md:items-center">
+                    <div
+                        class="border border-davysGrey rounded-full w-12 h-12 flex flex-row items-center justify-center font-fraunces font-semibold font-xl text-darkPurple leading-[48px] mx-auto"
+                    >
+                        3
+                    </div>
+                </div>
+
+                <div>
+                    <h2
+                        class="text-center mt-6 md:mt-0 font-semibold text-[28px] font-fraunces leading-9 md:text-start lg:text-center"
+                    >
+                        Always affordable
+                    </h2>
+                    <p
+                        class="mt-4 text-center font-normal text-base leading-7 text-davysGrey md:text-start lg:text-center"
+                    >
+                        Always affordable pricing that scales wit h your
+                        business. Get top-quality product data analytics
+                        services without hidden costs or unexpected fees.
+                    </p>
+                </div>
+            </section>
         </main>
+        <div
+            class="relative px-4 md:px-10 mt-[387px] md:h-[375px] lg:w-[1112px] lg:mx-auto"
+        >
+            <img
+                src="./assets/images/image-founder.webp"
+                alt="founder"
+                class="absolute h-[267px] lg:h-[453px] left-0 right-0 mx-auto md:mx-0 -top-[215px] md:-top-[146px] lg:-top-[170px] lg: -z-10"
+            />
+            <div
+                class="bg-darkPurple text-white p-8 md:px-[56px] md:pb-[56px] md:pt-[48px] flex flex-col items-center md:items-start md:ml-40 lg:ml-[340px]"
+            >
+                <h2
+                    class="font-fraunces text-[32px] font-semibold leading-[48px] text-center"
+                >
+                    Be the first to test
+                </h2>
+                <p
+                    class="text-center mt-4 text-4 leading-7 font-normal md:text-start"
+                >
+                    Hi, I'm Louis Graham, the founder of the company. Book a
+                    demo call with me to become a beta tester for our app and
+                    kickstart your company. Apply for access below and I’ll be
+                    in touch to schedule a call.
+                </p>
+
+                <button
+                    type="button"
+                    class="h-[55px] w-[177px] border-2 border-eucaplyptus hover:text-eucaplyptus hover:bg-transparent text-[18px] leading-8 font-bold mx-auto mt-10 bg-eucaplyptus text-darkPurple cursor-pointer"
+                >
+                    Apply for access
+                </button>
+            </div>
+            <img
+                src="./assets/images/bg-pattern-3.svg"
+                alt="spring"
+                class="hidden md:absolute md:block md:right-2 md:-bottom-14 w-[173px]"
+            />
+        </div>
+
         <footer class="mt-[74px] md:mt-20 mb-[122px]">
             <img
                 src="./assets/images/logo-dark.svg"
